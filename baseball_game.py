@@ -31,13 +31,7 @@ def is_digit(user_input_number):
     # '''
     # ===Modify codes below=============
     # 조건에 따라 변환되어야 할 결과를 result 변수에 할당
-    result = True
-
-    for i in user_input_number:
-        if i.isdigit() == False:
-            result = False
-            break
-
+    result = user_input_number.isdigit()
     # ==================================
     return result
 
